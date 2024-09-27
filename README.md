@@ -19,3 +19,5 @@ Para dúvidas, sugestões ou feedback, entre em contato através de:
 - GitHub: [guilherme-messias](https://github.com/guilherme-messias)
 
 - LinkedIn: [Guilherme Messias](https://www.linkedin.com/in/guilhermemessiasdev/)
+
+Atualizado em setembro de 2024.
