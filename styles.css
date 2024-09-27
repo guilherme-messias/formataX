@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#texto{
+#text {
   text-align: center;
   width: 450px;
 }
 
-#resultado{
+#result {
   font-size: 80px;
 }

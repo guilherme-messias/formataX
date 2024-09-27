@@ -1,38 +1,38 @@
 // Função de formatação de texto
 
-const botaoFormatacao = document.getElementById("botaoFormatacao");
-botaoFormatacao.addEventListener("click", () => {
+const autoFormatButton = document.getElementById("autoFormatButton");
+autoFormatButton.addEventListener("click", () => {
   try {
     // Validação do texto inserido pelo usuário
-    const texto = document.getElementById("texto").value;
+    const text = document.getElementById("text").value;
 
     // Remove acentos e cedilhas
-    const textoSemAcentos = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const textWithoutAccents = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
     // Remove traços, pontos e barras
-    const textoSemTracosEPontos = textoSemAcentos.replace(/[-./]/g, "");
+    const textWithoutPunctuation = textWithoutAccents.replace(/[-./]/g, "");
 
     // Converte para maiúsculas
-    const textoMaiusculo = textoSemTracosEPontos.toUpperCase();
+    const uppercaseText = textWithoutPunctuation.toUpperCase();
 
     // Limpar Campos
-    document.getElementById("texto").value = "";
+    document.getElementById("text").value = "";
 
-    // Apresentação do resultado formatado
-    const resultado = document.getElementById("resultado");
-    resultado.innerText = textoMaiusculo;
+    // Apresentação do result formatado
+    const result = document.getElementById("result");
+    result.innerText = uppercaseText;
   } catch (error) {
-    alert("Erro ao processar texto:", error);
+    alert("Erro ao processar text:", error);
     // Exibir mensagem de erro para o usuário (opcional)
   }
 });
 
 // Função de copiar texto formatado para área de transferência
-const botaoCopiar = document.getElementById("botaoCopiar");
-botaoCopiar.addEventListener("click", () => {
+const copyFormattedTextButton = document.getElementById("copyFormattedTextButton");
+copyFormattedTextButton.addEventListener("click", () => {
   // Seleção do conteúdo formato apresentado na página
-  const resultado = document.getElementById("resultado").textContent;
+  const result = document.getElementById("result").textContent;
 
-  // Copiar resultado formatado
-  navigator.clipboard.writeText(resultado);
+  // Copiar result formatado
+  navigator.clipboard.writeText(result);
 });
