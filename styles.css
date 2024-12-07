@@ -1,14 +1,20 @@
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+/* Estilos dos elementos da página */
+
 #text {
   text-align: center;
-  width: 450px;
+  width: 500px;
+  height: 30px;
 }
 
+/* Estilos dinâmicos */
 #result {
   font-size: 30px;
 }
