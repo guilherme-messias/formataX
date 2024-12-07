@@ -17,7 +17,7 @@
     <!-- Scripts -->
     <script src="index.js" defer></script>
   </head>
-  <body>
+  <body class="light-mode">
     <header>
       <img src="/formatacao-para-dp/img/logo.png" alt="Logo formatação para DP" id="logo" />
       <button id="bt-dark-mode" class="btn btn-dark">Modo Noturno</button>
@@ -27,13 +27,19 @@
     <main>
       <h2>Insira o texto que deseja formatar no campo abaixo:</h2>
       <textarea id="text"></textarea>
-      <input type="button" value="Formatar" id="autoFormatButton" class="btn btn-primary" />
-      <input type="button" value="Copiar" id="copyFormattedTextButton" class="btn btn-success" />
+      <input type="button" value="Formatar" id="autoFormatButton" class="btn btn-dark" />
+      <input type="button" value="Copiar" id="copyFormattedTextButton" class="btn btn-dark" />
       <br /><br /><br />
       <div id="result"></div>
+      <br /><br /><br />
     </main>
     <footer>
-      <p>Copyright © 2024 | Guilherme Messias</p>
+      <p>Desenvolvido por Guilherme Messias.</p>
+      <p>
+        Confira o repositório no
+        <a href="https://github.com/guilherme-messias/formatacao-para-dp" target="_blank">GitHub</a
+        >.
+      </p>
     </footer>
   </body>
 </html>

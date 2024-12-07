@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  /* background-color: #F5F5DC; */
+  /* color: #333333 ; */
 }
 
 /* Estilos dos elementos da página */
@@ -16,31 +18,52 @@
   font-size: 30px;
 }
 
-/* Modo Noturno */
-.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
+/* Modo claro */
+.light-mode {
+  background-color: #f5f5dc;
+  color: #333333;
+  border: #cccccc;
 }
 
-    /* Estilizando o header */
-    header {
-      display: flex; /* Define um layout flexível */
-      justify-content: space-between; /* Espaça os itens no início e no fim */
-      align-items: center; /* Alinha os itens verticalmente ao centro */
-      padding: 10px 40px; /* Espaçamento interno */
-    }
+.light-mode a {
+  color: #000000;
+}
 
-    /* Estilizando o título */
-    header #logo {
-      margin: 0; /* Remove margens padrão */
-      width: 120px; /* Define a largura do título */
-      height: 140px; /* Define a altura do título */
-    }
+.light-mode a:hover {
+  color: #666666;
+}
 
-    /* Estilizando o botão */
-    header button {
-      margin-left: auto;
-      padding: 10px 20px; /* Espaçamento interno do botão */
-      font-size: 16px; /* Ajusta o tamanho da fonte do botão */
-      cursor: pointer; /* Adiciona um cursor de "mãozinha" ao passar o mouse */
-    }
+/* Modo Noturno */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #eaeaea;
+  border: #4d4d4d;
+}
+
+.dark-mode a {
+  color: #f5f5dc;
+}
+
+.dark-mode a:hover {
+  color: #fff5e6;
+}
+/* Estilizando o header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+header #logo {
+  margin: 0;
+  width: 175px;
+  height: 160px;
+}
+
+header button {
+  margin-left: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
