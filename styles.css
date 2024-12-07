@@ -1,5 +1,4 @@
-/* reset */
-
+/* Reset de estilos padrão */
 * {
   margin: 0;
   padding: 0;
@@ -7,19 +6,41 @@
 }
 
 /* Estilos dos elementos da página */
-
 #text {
   text-align: center;
   width: 500px;
   height: 30px;
 }
 
-/* Estilos dinâmicos */
 #result {
   font-size: 30px;
 }
 
+/* Modo Noturno */
 .dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
+
+    /* Estilizando o header */
+    header {
+      display: flex; /* Define um layout flexível */
+      justify-content: space-between; /* Espaça os itens no início e no fim */
+      align-items: center; /* Alinha os itens verticalmente ao centro */
+      padding: 10px 40px; /* Espaçamento interno */
+    }
+
+    /* Estilizando o título */
+    header #logo {
+      margin: 0; /* Remove margens padrão */
+      width: 120px; /* Define a largura do título */
+      height: 140px; /* Define a altura do título */
+    }
+
+    /* Estilizando o botão */
+    header button {
+      margin-left: auto;
+      padding: 10px 20px; /* Espaçamento interno do botão */
+      font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+      cursor: pointer; /* Adiciona um cursor de "mãozinha" ao passar o mouse */
+    }
