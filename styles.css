@@ -12,3 +12,8 @@
 #result {
   font-size: 30px;
 }
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}

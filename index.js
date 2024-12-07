@@ -36,3 +36,12 @@ copyFormattedTextButton.addEventListener("click", () => {
   // Copiar result formatado
   navigator.clipboard.writeText(result);
 });
+
+document.getElementById("bt-dark-mode").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+  if (document.body.classList.contains("dark-mode")) {
+    this.textContent = "Modo Claro";
+  } else {
+    this.textContent = "Modo Noturno";
+  }
+});
