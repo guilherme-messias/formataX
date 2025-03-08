@@ -16,35 +16,6 @@
   font-size: 30px;
 }
 
-/* Modo claro */
-/* .light-mode {
-  background-color: #f5f5dc;
-  color: #333333;
-  border: #cccccc;
-}
-
-.light-mode a {
-  color: #000000;
-}
-
-.light-mode a:hover {
-  color: #666666;
-} */
-
-/* Modo Noturno */
-/* .dark-mode {
-  background-color: #1a1a1a;
-  color: #eaeaea;
-  border: #4d4d4d;
-}
-
-.dark-mode a {
-  color: #f5f5dc;
-}
-
-.dark-mode a:hover {
-  color: #fff5e6;
-} */
 /* Estilizando o header */
 header {
   display: flex;
