@@ -66,30 +66,16 @@ header button {
   cursor: pointer;
 }
 
-@media (preference-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #e2e0d4;
+    color: #1a1a1a;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
   body {
     background-color: #1a1a1a;
     color: #eaeaea;
   }
-  /* header {
-    background-color: #333333;
-  } */
-  /* header a {
-    background-color: #fff;
-    color: #1a1a1a;
-  } */
-}
-
-@media (preference-color-scheme: light) {
-  body {
-    background-color: red;
-    color: #1a1a1a;
-  }
-  /* header {
-    background-color: #333333;
-  }
-  header a {
-    background-color: #fff;
-    color: #1a1a1a;
-  } */
 }
