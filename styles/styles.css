@@ -17,7 +17,7 @@
 }
 
 /* Modo claro */
-.light-mode {
+/* .light-mode {
   background-color: #f5f5dc;
   color: #333333;
   border: #cccccc;
@@ -29,7 +29,7 @@
 
 .light-mode a:hover {
   color: #666666;
-}
+} */
 
 /* Modo Noturno */
 .dark-mode {
@@ -64,4 +64,18 @@ header button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media (preference-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #eaeaea;
+  }
+  header {
+    background-color: #333333;
+  }
+  header a {
+    background-color: #fff;
+    color: #1a1a1a;
+  }
 }
