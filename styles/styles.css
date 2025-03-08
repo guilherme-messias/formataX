@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+img {
+  border-radius: 2rem;
+}
+
 /* Estilos dos elementos da página */
 #text {
   text-align: center;
