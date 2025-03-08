@@ -32,7 +32,7 @@
 } */
 
 /* Modo Noturno */
-.dark-mode {
+/* .dark-mode {
   background-color: #1a1a1a;
   color: #eaeaea;
   border: #4d4d4d;
@@ -44,7 +44,7 @@
 
 .dark-mode a:hover {
   color: #fff5e6;
-}
+} */
 /* Estilizando o header */
 header {
   display: flex;
@@ -71,11 +71,25 @@ header button {
     background-color: #1a1a1a;
     color: #eaeaea;
   }
-  header {
+  /* header {
+    background-color: #333333;
+  } */
+  /* header a {
+    background-color: #fff;
+    color: #1a1a1a;
+  } */
+}
+
+@media (preference-color-scheme: light) {
+  body {
+    background-color: red;
+    color: #1a1a1a;
+  }
+  /* header {
     background-color: #333333;
   }
   header a {
     background-color: #fff;
     color: #1a1a1a;
-  }
+  } */
 }
