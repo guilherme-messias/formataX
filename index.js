@@ -36,24 +36,3 @@ copyFormattedTextButton.addEventListener("click", () => {
   // Copiar result formatado
   navigator.clipboard.writeText(result);
 });
-
-document.getElementById("bt-dark-mode").addEventListener("click", function () {
-  document.body.classList.toggle("dark-mode");
-  const buttons = document.querySelectorAll("button");
-
-  buttons.forEach(button => {
-    if (document.body.classList.contains("dark-mode")) {
-      button.classList.add("btn-light");
-      button.classList.remove("btn-dark");
-    } else {
-      button.classList.add("btn-dark");
-      button.classList.remove("btn-light");
-    }
-  });
-
-  if (document.body.classList.contains("dark-mode")) {
-    this.textContent = "Modo Claro";
-  } else {
-    this.textContent = "Modo Noturno";
-  }
-});
