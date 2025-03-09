@@ -19,8 +19,8 @@ autoFormatButton.addEventListener("click", () => {
     document.getElementById("textToFormat").value = "";
 
     // Apresentação do result formatado
-    const result = document.getElementById("result");
-    result.innerText = uppercaseText;
+    const formattedText = document.getElementById("formattedText");
+    formattedText.innerText = uppercaseText;
   } catch (error) {
     alert("Erro ao processar text:", error);
     // Exibir mensagem de erro para o usuário (opcional)
@@ -31,8 +31,8 @@ autoFormatButton.addEventListener("click", () => {
 const copyFormattedTextButton = document.getElementById("copyFormattedTextButton");
 copyFormattedTextButton.addEventListener("click", () => {
   // Seleção do conteúdo formato apresentado na página
-  const result = document.getElementById("result").textContent;
+  const formattedText = document.getElementById("formattedText").textContent;
 
   // Copiar result formatado
-  navigator.clipboard.writeText(result);
+  navigator.clipboard.writeText(formattedText);
 });
