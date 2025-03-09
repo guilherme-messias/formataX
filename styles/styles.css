@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap");
 
-/* Reset de estilos padrão */
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +45,11 @@ header button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+
 }
 
 @media (prefers-color-scheme: light) {
