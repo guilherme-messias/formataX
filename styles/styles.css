@@ -61,6 +61,12 @@ h2 {
     background-color: #cbceca;
     color: #1a1a1a;
   }
+
+  footer {
+    background-color: #1a1a1a;
+    color: #eaeaea;
+  }
+
   button {
     background-color: #1a1a1a;
     color: #eaeaea;
@@ -77,6 +83,12 @@ h2 {
     background-color: #1a1a1a;
     color: #eaeaea;
   }
+
+  footer {
+    background-color: #eaeaea;
+    color: #1a1a1a;
+  }
+
   button {
     background-color: #eaeaea;
     color: #1a1a1a;
