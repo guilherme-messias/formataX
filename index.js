@@ -4,7 +4,7 @@ const autoFormatButton = document.getElementById("autoFormatButton");
 autoFormatButton.addEventListener("click", () => {
   try {
     // Validação do texto inserido pelo usuário
-    const text = document.getElementById("text").value;
+    const text = document.getElementById("textToFormat").value;
 
     // Remove acentos e cedilhas
     const textWithoutAccents = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -16,7 +16,7 @@ autoFormatButton.addEventListener("click", () => {
     const uppercaseText = textWithoutPunctuation.toUpperCase();
 
     // Limpar Campos
-    document.getElementById("text").value = "";
+    document.getElementById("textToFormat").value = "";
 
     // Apresentação do result formatado
     const result = document.getElementById("result");

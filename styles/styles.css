@@ -11,18 +11,18 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin: 3rem;
 }
 
 #img-logo {
-  border-radius: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 4.5rem;
   width: 12rem;
   height: 11rem;
 }
 
-/* Estilos dos elementos da página */
-#text {
+#textToFormat {
   text-align: center;
   width: 500px;
   height: 30px;
@@ -47,9 +47,10 @@ header button {
   cursor: pointer;
 }
 
-
 @media (min-width: 1024px) {
-
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (prefers-color-scheme: light) {
