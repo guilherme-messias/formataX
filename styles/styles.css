@@ -10,23 +10,25 @@ body {
   font-family: "Schibsted Grotesk", sans-serif;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin: 3rem;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
+  padding: 2rem 2rem;
 }
 
-header button {
-  margin-left: auto;
-  padding: 10px 20px;
-  font-size: 16px;
+button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  font-size: 1rem;
   cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 3rem;
 }
 
 #img-logo {
@@ -38,7 +40,7 @@ header button {
 
 #textToFormat {
   text-align: center;
-  width: 18rem;
+  width: 16rem;
   height: 2rem;
   margin: 3rem;
 }
@@ -56,8 +58,12 @@ header button {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #e2e0d4;
+    background-color: #CBCECA;
     color: #1a1a1a;
+  }
+  button {
+    background-color: #1a1a1a;
+    color: #eaeaea;
   }
 }
 
@@ -65,5 +71,9 @@ header button {
   body {
     background-color: #1a1a1a;
     color: #eaeaea;
+  }
+  button {
+    background-color: #eaeaea;
+    color: #1a1a1a;
   }
 }
