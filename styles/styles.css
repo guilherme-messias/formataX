@@ -24,8 +24,9 @@ h2 {
 
 #textToFormat {
   text-align: center;
-  width: 500px;
-  height: 30px;
+  width: 18rem;
+  height: 2rem;
+  margin: 3rem;
 }
 
 #result {
