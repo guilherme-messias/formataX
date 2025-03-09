@@ -17,6 +17,16 @@ header {
   padding: 2rem 2rem;
 }
 
+footer {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eaeaea;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 button {
   border: none;
   border-radius: 0.5rem;
