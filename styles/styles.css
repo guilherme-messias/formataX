@@ -58,6 +58,7 @@ h2 {
   padding: 3rem;
 }
 
+/* todo: seguir com adaptação de layout tablet e desktop */
 @media (min-width: 1024px) {
   h2 {
     font-size: 2rem;
