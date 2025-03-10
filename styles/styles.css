@@ -68,7 +68,7 @@ h2 {
 
   footer {
     padding: 5rem 6rem;
-    margin-top: 43rem;
+    margin-top: 20rem;
     font-size: 1rem;
   }
   button {
@@ -94,8 +94,11 @@ h2 {
     height: 3rem;
     margin: 5rem;
   }
-  
 
+  #formattedText {
+    font-size: 3.5rem;
+    padding: 6rem;
+  }
 }
 
 @media (min-width: 1024px) {
