@@ -58,7 +58,22 @@ h2 {
   padding: 3rem;
 }
 
-/* todo: seguir com adaptação de layout tablet e desktop */
+@media (min-width: 768px) {
+  header {
+    padding: 4rem 4rem;
+  }
+  main {
+    margin: 10rem 5rem;
+  }
+
+  footer {
+    padding: 5rem 6rem;
+    margin-top: 43rem;
+    font-size: 1rem;
+  }
+
+}
+
 @media (min-width: 1024px) {
   h2 {
     font-size: 2rem;
