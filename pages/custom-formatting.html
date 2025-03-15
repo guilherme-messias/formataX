@@ -14,24 +14,29 @@
       <br /><br /><br />
     </header>
     <main>
-      <h2>Personalize a sua formatação abaixo:</h2>
-      <input type="radio" name="formatOption" id="removeDots" />
-      <label for="removeDots">Excluir pontos</label>
+      <div id="formatOptions">
+        <h2>1. Selecione a personalização da sua formatação abaixo:</h2>
+        <input type="radio" name="formatOption" id="removeDots" />
+        <label for="removeDots">Excluir pontos</label>
 
-      <input type="radio" name="formatOption" id="uppercase" />
-      <label for="uppercase">Maiúscula</label>
+        <input type="radio" name="formatOption" id="uppercase" />
+        <label for="uppercase">Maiúscula</label>
 
-      <input type="radio" name="formatOption" id="removeAccentsAndPunctuation" />
-      <label for="removeAccentsAndPunctuation">Remover acentos e pontuação</label>
+        <input type="radio" name="formatOption" id="removeAccentsAndPunctuation" />
+        <label for="removeAccentsAndPunctuation">Remover acentos e pontuação</label>
 
-      <input type="radio" name="formatOption" id="removeDashes" />
-      <label for="removeDashes">Remover traços</label>
+        <input type="radio" name="formatOption" id="removeDashes" />
+        <label for="removeDashes">Remover traços</label>
+        <br /><br />
+      </div>
 
-      <h2>Insira o texto que deseja formatar no campo abaixo:</h2>
-      <textarea id="textToFormat"></textarea>
-      <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
-      <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
-      <br /><br /><br />
+      <div id="textInput">
+        <h2>2. Insira o texto que deseja formatar no campo abaixo:</h2>
+        <textarea id="textToFormat"></textarea>
+        <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
+        <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
+      </div>
+
       <div id="formattedText"></div>
       <br />
       <a href="./pages/custom-formatting.html">Personalizar Formatação</a>
