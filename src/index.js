@@ -14,9 +14,6 @@ autoFormatButton.addEventListener("click", () => {
 });
 
 copyFormattedTextButton.addEventListener("click", () => {
-  // Seleção do conteúdo formato apresentado na página
   const formattedText = document.getElementById("formattedText").textContent;
-
-  // Copiar result formatado
   navigator.clipboard.writeText(formattedText);
 });
