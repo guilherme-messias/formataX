@@ -1,44 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Título -->
-    <title>Formatação Para DP</title>
-    <!-- Estilos -->
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-
-    <!-- Scripts -->
-    <script src="index.js" defer></script>
+    <title>FormataX</title>
+    <link rel="shortcut icon" href="/img/formataX-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/src/index.js" type="module" defer></script>
   </head>
-  <body class="light-mode">
+  <body>
     <header>
-      <img src="/formatacao-para-dp/img/logo.png" alt="Logo formatação para DP" id="logo" />
-      <button id="bt-dark-mode" class="btn btn-dark">Modo Noturno</button>
+      <img src="/img/formataX-logo.png" alt="Logo do FormataX" id="img-logo" />
       <br /><br /><br />
     </header>
     <main>
       <h2>Insira o texto que deseja formatar no campo abaixo:</h2>
-      <textarea id="text"></textarea>
+      <textarea id="textToFormat"></textarea>
       <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
       <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
-      <br /><br /><br />
-      <div id="result"></div>
-      <br /><br /><br />
+      <br /><br />
+      <div id="formattedText"></div>
+      <br />
+      <a href="./pages/custom-formatting.html">Personalizar Formatação</a>
     </main>
     <footer>
-      <p>Desenvolvido por Guilherme Messias.</p>
-      <p>
-        Confira o repositório no
-        <a href="https://github.com/guilherme-messias/formatacao-para-dp" target="_blank">GitHub</a
-        >.
-      </p>
+      <p>&copy; 2025 FormataX. Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
