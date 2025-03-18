@@ -1,4 +1,7 @@
-# Formatação Para DP
+<div align="center">
+  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX'>
+</div>
+# Sobre o FormataX
 
 ## Descrição
 
