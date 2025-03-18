@@ -19,7 +19,13 @@ autoFormatButton.addEventListener("click", () => {
   const isRemoveAccentsAndPunctuation = removeAccentsAndPunctuation ? true : null;
   const isRemoveDashes = removeDashes ? true : null;
 
-  const textFormatted = format(textInput, options);
+  const textFormatted = format(
+    textInput,
+    isRemoveDots,
+    isUppercase,
+    isRemoveAccentsAndPunctuation,
+    isRemoveDashes
+  );
 
   const formattedText = document.getElementById("formattedText");
   formattedText.innerText = textFormatted;
