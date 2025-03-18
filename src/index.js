@@ -7,7 +7,19 @@ autoFormatButton.addEventListener("click", () => {
   const textInput = document.getElementById("textToFormat").value;
   document.getElementById("textToFormat").value = "";
 
-  const textFormatted = format(textInput);
+  const removeDots = document.getElementById("removeDots").checked;
+  const uppercase = document.getElementById("uppercase").checked;
+  const removeAccentsAndPunctuation = document.getElementById(
+    "removeAccentsAndPunctuation"
+  ).checked;
+  const removeDashes = document.getElementById("removeDashes").checked;
+
+  const isRemoveDots = removeDots ? true : null;
+  const isUppercase = uppercase ? true : null;
+  const isRemoveAccentsAndPunctuation = removeAccentsAndPunctuation ? true : null;
+  const isRemoveDashes = removeDashes ? true : null;
+
+  const textFormatted = format(textInput, options);
 
   const formattedText = document.getElementById("formattedText");
   formattedText.innerText = textFormatted;
