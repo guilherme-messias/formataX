@@ -14,14 +14,35 @@
       <br /><br /><br />
     </header>
     <main>
-      <h2>Insira o texto que deseja formatar no campo abaixo:</h2>
-      <textarea id="textToFormat"></textarea>
-      <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
-      <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
-      <br /><br />
+      <div id="formatOptions">
+        <h2>1. Selecione a personalização da sua formatação abaixo:</h2>
+        <input type="checkbox" name="formatOption" id="removeDots" checked />
+        <label for="removeDots">Excluir pontos (Remove os pontos do texto formatado)</label>
+        <br />
+
+        <input type="checkbox" name="formatOption" id="uppercase" checked />
+        <label for="uppercase">Maiúscula (Converte todo o conteúdo para letras maiúsculas)</label>
+        <br />
+
+        <input type="checkbox" name="formatOption" id="removeAccentsAndPunctuation" checked />
+        <label for="removeAccentsAndPunctuation"
+          >Remover acentos e pontuação (Elimina acentos gráficos e sinais de pontuação)</label
+        >
+        <br />
+
+        <input type="checkbox" name="formatOption" id="removeDashes" checked />
+        <label for="removeDashes">Remover traços (Exclui os traços do texto formatado)</label>
+        <br /><br />
+      </div>
+
+      <div id="textInput">
+        <h2>2. Insira o texto que deseja formatar no campo abaixo:</h2>
+        <textarea id="textToFormat"></textarea>
+        <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
+        <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
+      </div>
+
       <div id="formattedText"></div>
-      <br />
-      <a href="./pages/custom-formatting.html">Personalizar Formatação</a>
     </main>
     <footer>
       <p>&copy; 2025 FormataX. Todos os direitos reservados.</p>

@@ -58,6 +58,13 @@ h2 {
   padding: 3rem;
 }
 
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem 1rem;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   header {
     padding: 4rem 4rem;
