@@ -1,18 +1,30 @@
 <div align="center">
-  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX' width="200" height="200">
+  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX' width="250" height="200">
 </div>
 
 # Sobre o FormataX
 
-## Descrição
+No dia a dia administrativo, lidar com textos desalinhados aos padrões exigidos pode ser um desafio. Pensando nisso, nasceu FormataX, uma solução desenvolvida para automatizar e personalizar a formatação de documentos administrativos, eliminando a necessidade de ajustes manuais demorados.
 
-Este projeto tem como objetivo desenvolver uma página web que oferece uma ferramenta de formatação de texto personalizada para atender às necessidades do departamento pessoal (DP). A ferramenta automatiza a formatação de textos, assegurando que eles sigam os padrões exigidos para documentos formais no contexto de recursos humanos, como relatórios, comunicados internos, cartas de demissão e outros documentos administrativos.
+Criado a partir da experiência real com a dificuldade de padronização de textos, FormataX permite que usuários transformem qualquer texto com apenas alguns cliques. Seja removendo traços e pontuação, ajustando capitalização ou aplicando regras específicas, o sistema proporciona um fluxo de trabalho mais ágil e eficiente para profissionais administrativos.
+
+Diferente de outras soluções que atendem apenas necessidades pontuais, FormataX se destaca pela personalização, permitindo que cada usuário defina suas preferências de formatação de acordo com suas demandas específicas.
+
+Experimente e veja como a formatação pode se tornar um processo simples e automatizado!
+
+## Como Usar
+
+
 
 ## Tecnologias Utilizadas
 
-- HTML5 e CSS3: Para estruturar e estilizar a interface da página web.
+* HTML
+* CSS
+* JavaScript
 
-- JavaScript (ES6+): Lógica de formatação e interatividade.
+## Sugestões
+
+O projeto já está em funcionamento e em constante evolução, aberto a sugestões para torná-lo ainda mais útil no dia a dia de quem lida com documentos administrativos.
 
 ## Contato
 
@@ -24,4 +36,6 @@ Para dúvidas, sugestões ou feedback, entre em contato através de:
 
 - LinkedIn: [Guilherme Messias](https://www.linkedin.com/in/guilhermemessiasdev/)
 
-Atualizado em setembro de 2024.
+
+
+
