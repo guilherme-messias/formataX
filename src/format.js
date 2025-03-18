@@ -6,15 +6,15 @@ export function format(
   isRemoveDashes
 ) {
   try {
-    let textFormatted;
+    let textFormatted = textInput;
     if (isRemoveDots) {
-      textFormatted = textInput.replace(/[.]/g, "");
+      textFormatted = textFormatted.replace(/[.]/g, "");
     }
     if (isRemoveDashes) {
       textFormatted = textFormatted.replace(/[-]/g, "");
     }
     if (isRemoveAccentsAndPunctuation) {
-      textFormatted = removeAccentsAndPunctuation(textFormatted);
+      textFormatted = textFormatted.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
     if (isUppercase) {
       textFormatted = textFormatted.toUpperCase();
