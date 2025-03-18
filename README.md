@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX'>
+  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX' width="100" height="100">
 </div>
+
 # Sobre o FormataX
 
 ## Descrição
