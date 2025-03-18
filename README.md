@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX' width="100" height="100">
+  <img src="/img/formataX-logo.png" alt='Logo do Projeto FormataX' width="200" height="200">
 </div>
 
 # Sobre o FormataX
