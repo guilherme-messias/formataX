@@ -14,8 +14,30 @@ Experimente e veja como a formatação pode se tornar um processo simples e auto
 
 ## Como Usar
 
+## Como Usar
 
+### Instalação
 
+1. **Clone o repositório:**
+
+  ```bash
+  git clone git@github.com:guilherme-messias/formataX.git
+  ```
+
+2. **Navegue até o diretório do projeto:**
+
+  ```bash
+  cd formataX
+  ```
+
+3. **Abra o arquivo `index.html` no seu navegador:**
+
+  Você pode abrir o arquivo diretamente no seu navegador ou utilizar uma extensão como o Live Server no VSCode para visualizar o projeto.
+
+### Acesse a Página
+
+Se preferir, você pode acessar a página diretamente através do link: [FormataX](https://guilherme-messias.github.io/formataX/)
+<!-- todo: passo a passo da página html -->
 ## Tecnologias Utilizadas
 
 * HTML
