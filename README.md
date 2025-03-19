@@ -14,8 +14,6 @@ Experimente e veja como a formatação pode se tornar um processo simples e auto
 
 ## Como Usar
 
-## Como Usar
-
 ### Instalação
 
 1. **Clone o repositório:**
@@ -37,7 +35,9 @@ Experimente e veja como a formatação pode se tornar um processo simples e auto
 ### Acesse a Página
 
 Se preferir, você pode acessar a página diretamente através do link: [FormataX](https://guilherme-messias.github.io/formataX/)
-<!-- todo: passo a passo da página html -->
+
+##
+
 ## Tecnologias Utilizadas
 
 * HTML
