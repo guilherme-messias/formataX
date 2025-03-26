@@ -55,7 +55,7 @@ h2 {
 
 #formattedText {
   font-size: 2rem;
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 input[type="checkbox"] {
@@ -119,7 +119,7 @@ input[type="checkbox"] {
   }
 
   footer {
-    padding: 4.5rem 0;
+    padding: 2rem 0;
     font-size: 1rem;
   }
 
