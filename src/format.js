@@ -11,7 +11,7 @@ export function format(
       textFormatted = textFormatted.replace(/[.]/g, "");
     }
     if (isRemoveDashes) {
-      textFormatted = textFormatted.replace(/[-]/g, "");
+      textFormatted = textFormatted.replace(/[-/\\]/g, "");
     }
     if (isRemoveAccentsAndPunctuation) {
       textFormatted = textFormatted.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
