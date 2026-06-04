@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FormataX</title>
-    <link rel="shortcut icon" href="./img/formataX-favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./img/formataX-favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <script src="./src/index.js" type="module" defer></script>
   </head>
@@ -17,21 +21,33 @@
       <div id="formatOptions">
         <h2>1. Selecione a personalização da sua formatação abaixo:</h2>
         <input type="checkbox" name="formatOption" id="removeDots" checked />
-        <label for="removeDots">Excluir pontos (Remove os pontos do texto formatado)</label>
+        <label for="removeDots"
+          >Excluir pontos (Remove os pontos do texto formatado)</label
+        >
         <br />
 
         <input type="checkbox" name="formatOption" id="uppercase" checked />
-        <label for="uppercase">Maiúscula (Converte todo o conteúdo para letras maiúsculas)</label>
+        <label for="uppercase"
+          >Maiúscula (Converte todo o conteúdo para letras maiúsculas)</label
+        >
         <br />
 
-        <input type="checkbox" name="formatOption" id="removeAccentsAndPunctuation" checked />
+        <input
+          type="checkbox"
+          name="formatOption"
+          id="removeAccentsAndPunctuation"
+          checked
+        />
         <label for="removeAccentsAndPunctuation"
-          >Remover acentos e pontuação (Elimina acentos gráficos e sinais de pontuação)</label
+          >Remover acentos e pontuação (Elimina acentos gráficos e sinais de
+          pontuação)</label
         >
         <br />
 
         <input type="checkbox" name="formatOption" id="removeDashes" checked />
-        <label for="removeDashes">Remover traços (Exclui os traços do texto formatado)</label>
+        <label for="removeDashes"
+          >Remover traços (Exclui os traços do texto formatado)</label
+        >
         <br /><br />
       </div>
 
@@ -39,7 +55,9 @@
         <h2>2. Insira o texto que deseja formatar no campo abaixo:</h2>
         <textarea id="textToFormat"></textarea>
         <button id="autoFormatButton" class="btn btn-dark">Formatar</button>
-        <button id="copyFormattedTextButton" class="btn btn-dark">Copiar</button>
+        <button id="copyFormattedTextButton" class="btn btn-dark">
+          Copiar
+        </button>
       </div>
 
       <div id="formattedText"></div>
