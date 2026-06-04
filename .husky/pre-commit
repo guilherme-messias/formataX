@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Hook de pré-commit: executar lint-staged
+npx --no -- lint-staged

@@ -1,0 +1,30 @@
+{
+  "name": "formatax",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ferramenta simples de formatação de texto",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js --fix",
+    "format": "prettier --write \"**/*.{js,css,html,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.7",
+    "prettier": "^2.8.8",
+    "vite": "^5.4.21"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*.{css,html,md}": [
+      "prettier --write"
+    ]
+  }
+}
