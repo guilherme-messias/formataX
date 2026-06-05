@@ -23,6 +23,6 @@ export function format(
     }
     return textFormatted;
   } catch (error) {
-    alert('Erro ao processar text:', error);
+    console.error('Erro ao processar text:', error);
   }
 }
