@@ -17,6 +17,7 @@ export function format(
       textFormatted = textFormatted
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');
+      textFormatted = textFormatted.replace(/[^\w\s./\\-]/g, '');
     }
     if (isUppercase) {
       textFormatted = textFormatted.toUpperCase();
