@@ -14,7 +14,6 @@ function setCopyFeedback(isCopied) {
 
 autoFormatButton.addEventListener('click', () => {
   const textInput = document.getElementById('textToFormat').value;
-  document.getElementById('textToFormat').value = '';
 
   const removeDots = document.getElementById('removeDots').checked;
   const uppercase = document.getElementById('uppercase').checked;
@@ -40,6 +39,10 @@ autoFormatButton.addEventListener('click', () => {
 
   const formattedText = document.getElementById('formattedText');
   formattedText.innerText = textFormatted;
+
+  setTimeout(() => {
+    document.getElementById('textToFormat').value = '';
+  }, 3000);
 });
 
 copyFormattedTextButton.addEventListener('click', async () => {
