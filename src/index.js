@@ -4,6 +4,13 @@ const autoFormatButton = document.getElementById('autoFormatButton');
 const copyFormattedTextButton = document.getElementById(
   'copyFormattedTextButton'
 );
+let copyFeedbackTimeoutId;
+
+function setCopyFeedback(isCopied) {
+  copyFormattedTextButton.textContent = isCopied ? '✓ Copiado!' : 'Copiar';
+  copyFormattedTextButton.classList.toggle('btn-success', isCopied);
+  copyFormattedTextButton.disabled = isCopied;
+}
 
 autoFormatButton.addEventListener('click', () => {
   const textInput = document.getElementById('textToFormat').value;
@@ -35,7 +42,18 @@ autoFormatButton.addEventListener('click', () => {
   formattedText.innerText = textFormatted;
 });
 
-copyFormattedTextButton.addEventListener('click', () => {
+copyFormattedTextButton.addEventListener('click', async () => {
   const formattedText = document.getElementById('formattedText').textContent;
-  navigator.clipboard.writeText(formattedText);
+  try {
+    await navigator.clipboard.writeText(formattedText);
+
+    clearTimeout(copyFeedbackTimeoutId);
+    setCopyFeedback(true);
+
+    copyFeedbackTimeoutId = window.setTimeout(() => {
+      setCopyFeedback(false);
+    }, 2000);
+  } catch (error) {
+    console.error('Erro ao copiar o texto formatado:', error);
+  }
 });
